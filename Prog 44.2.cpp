@@ -1,4 +1,4 @@
-/* Autor: Xavier Romero Hern·ndez, Realizado: 18/04/2022 
+/* Autor: Xavier Romero Hern√°ndez, Realizado: 18/04/2022 
 	Programa que almacena las calificaciones de un alumno y su faltas para un grupo de 10 alumnos
 	El programa tendra las siguientes opciones:
 		0. Salir
@@ -11,8 +11,8 @@
 		7. Guardar datos
 		8. Cargar datos
 		//Para hacer operaciones con las calificaciones de los alumnos se siguen las siguientes reglas
-			Si el numero de faltas es <=6, la calificaciÛn es la que esta almacenada en el dato promedio de la estructura
-            	Pero si no, la calificaciÛn que se toma es 5
+			Si el numero de faltas es <=6, la calificaci√≥n es la que esta almacenada en el dato promedio de la estructura
+            	Pero si no, la calificaci√≥n que se toma es 5
 	*/
 	
 #include <stdio.h>
