@@ -1,5 +1,4 @@
 # prog_est_prog39.3
-Tomando de base el programa anterior, agregamos el uso de estructuras para asignar datos a un objeto
 <p><b>Autor:</b> Xavier Romero Hernández, <b>Fecha:</b> 18/04/2022 <br>
   <b>Escuela:</b> Universidad del Valle de Mexico <b>Campus</b> Villahermosa<br>
   <b>Materia:</b> Programación Estructrada<br>
@@ -21,21 +20,25 @@ Presenta el uso de:
     <li>Arreglos</li>
     <li>Funciones y Prototipos</li>
     <li>struct</li>
+    <li>FILE, fopen, fclose</li>
   </ul>
 </p>
 
-<b>Objetivo:</b> Hacer el uso de estructuras para almacenas los datos asignandolos a un objeto
+<b>Objetivo:</b> Almacenar los datos en un archivo .txt para poder cargarlos nuevamente aun si se cierra el programa
 
 <p><b>Breve descripcion:</b><br>
 El programa almacena las calificaciones de un alumno y su faltas para un grupo de 10 alumnos, opera con mediante un menú<br>
 El programa tiene las siguientes opciones:
   <ol start="0">
     <li>Salir</li>
-    <li>Introducir datos del alumno (calificaciones y faltas)</li>
+    <li>Agregar alumnos</li>
     <li>Imprimir</li>
+    <li>Alumnos Aprobados</li>
+    <li>Alumnos Reprobados</li>
     <li>Promedio del grupo</li>
-    <li>Cuantos aprobaron</li>
-    <li>Porcentaje de asistencia de cada alumno (32 asistencias)</li>
+    <li>Porcentaje de alumnos Aprobados</li>
+    <li>Guardar datos</li>
+    <li>Cargar datos</li>
   </ol>
 Para hacer operaciones con las calificaciones de los alumnos se siguen las siguientes reglas<br>
 Si el numero de faltas es <=6, la calificación es la que esta almacenada en el dato promedio de la estructura<br>
