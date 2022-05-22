@@ -39,6 +39,5 @@ El programa tiene las siguientes opciones:
   </ol>
 Para hacer operaciones con las calificaciones de los alumnos se siguen las siguientes reglas<br>
 Si el numero de faltas es <=6, la calificación es la que esta almacenada en el dato promedio de la estructura<br>
-Pero si no, la calificación que se toma es 5
-Tomando de base el programa anterior, se agrego el uso de estructuras para almacenar datos <br>
+Pero si no, la calificación que se toma es 5<br>
 </p>
